@@ -1,0 +1,13 @@
+nav:
+  # 导航栏 Logo 图片
+  logo:
+  # 是否显示标题
+  display_title: true
+  # 是否固定导航栏
+  fixed: false
+menu:
+  分类: /categories
+  标签: /tags
+aside:
+  card_announcement:
+    enable: false
