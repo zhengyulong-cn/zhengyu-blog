@@ -22,14 +22,21 @@ code_blocks:
   shrink: false
   fullpage: true
 
-disable_top_img: true
-background: https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png
+disable_top_img: false
+index_img: https://zhengyu-blog.oss-cn-wuhan-lr.aliyuncs.com/%E7%94%98%E9%9B%A8.jpg
 
 cover:
   index_enable: true
   aside_enable: true
   archives_enable: true
-  default_cover: https://jsd.012700.xyz/gh/jerryc127/CDN@latest/cover/default_bg.png
+  default_cover:
+
+math:
+  use: katex
+  per_page: true
+  hide_scrollbar: false
+  katex:
+    copy_tex: false
 
 post_meta:
   page:
