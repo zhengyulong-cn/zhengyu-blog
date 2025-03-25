@@ -31,13 +31,6 @@ cover:
   archives_enable: true
   default_cover:
 
-math:
-  use: katex
-  per_page: true
-  hide_scrollbar: false
-  katex:
-    copy_tex: false
-
 post_meta:
   page:
     date_type: created
