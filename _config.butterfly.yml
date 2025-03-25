@@ -66,6 +66,14 @@ aside:
     enable: false
   card_recent_post:
     enable: false
+  card_author:
+    enable: true
+    description:
+    button:
+      enable: true
+      icon: fab fa-zhihu
+      text: Follow Me
+      link: https://www.zhihu.com/people/jqk-61
 
 rightside_scroll_percent: true
 
