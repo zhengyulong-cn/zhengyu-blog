@@ -50,6 +50,8 @@ plot(signalLine, color = color.red)
 
 ### 执行模型
 
+#### 脚本执行
+
 Pine脚本执行：固定数据量，历史K线逐个处理，实时K线每次更新处理。
 
 在历史K线，每根K线的价和量都是已知的，每根K线执行一次脚本。首先从索引0处的数据集的第一根K线上执行，每个语句都使用当前K线的值执行。
@@ -66,3 +68,45 @@ plot(b, color = color.black)
 plotshape(c, color = color.red)
 ```
 
+#### 函数历史值
+
+```pine
+//@version=6
+indicator("My script")
+// 将前一根K线索引值加1，来计算当前索引，第一根K线索引是0
+calcBarIndex() =>
+    int index = na
+    // nz()函数用指定值替换na值。在脚本的第一个条形图上，当系列没有历史记录时，na值将替换为-1，然后再加1以返回初始值 0
+    index := nz(index[1], replacement = -1) + 1
+// 为偶数索引时候返回true
+condition = bar_index % 2 == 0
+int customIndex = na
+// 当condition为true时候调用calcBarIndex()，这条语句编译时会有警告
+if condition
+    customIndex := calcBarIndex()
+plot(bar_index, "Bar index", color = color.green)
+plot(customIndex, "Custom index", color = color.red, style = plot.style_cross)
+```
+
+最后效果如下，可以观察到`customIndex`在索引为奇数时候没有统计。
+
+![img](https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/Function_historical_context_1.BS8uzH0h_1erubd.webp)
+
+当代码添加`globalScopeBarIndex`全局范围变量，这时候会直接调用函数。最终`bar_index`和`customIndex`在偶数索引显示相同，奇数索引`customIndex`不显示。
+
+```pine
+//@version=6
+indicator("My script")
+calcBarIndex() =>
+    int index = na
+    index := nz(index[1], replacement = -1) + 1
+condition = bar_index % 2 == 0
+globalScopeBarIndex = calcBarIndex()
+int customIndex = na
+if condition
+    customIndex := globalScopeBarIndex
+plot(bar_index, "Bar index", color = color.green)
+plot(customIndex, "Custom index", color = color.red, style = plot.style_cross)
+```
+
+![img](https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/Function_historical_context_2.DMU4JJfT_ZCks6f.webp)
