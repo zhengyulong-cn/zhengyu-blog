@@ -23,7 +23,7 @@ code_blocks:
   fullpage: true
 
 disable_top_img: false
-index_img: https://zhengyu-blog.oss-cn-wuhan-lr.aliyuncs.com/%E7%94%98%E9%9B%A8.jpg
+index_img: https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/%E7%94%98%E9%9B%A8.jpg
 
 cover:
   index_enable: true
@@ -87,3 +87,9 @@ share:
   use:
 
 lightbox: fancybox
+
+favicon: /img/favicon.ico
+
+avatar:
+  img: /img/butterfly-icon.png
+  effect: false

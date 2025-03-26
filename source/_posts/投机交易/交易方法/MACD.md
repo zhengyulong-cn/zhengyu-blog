@@ -23,7 +23,7 @@ DIFF（白线）：短期收盘价平均值 - 长期收盘价平均值。
 
 DEA（黄线）：某段时间内DIFF的平均值，即短期长期收盘价差平均值的平均值。
 
-![MACD图2](https://zhengyu-blog.oss-cn-wuhan-lr.aliyuncs.com/MACD%E5%9B%BE.png)
+![MACD图2](https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/MACD%E5%9B%BE.png)
 
 根据图中可以观察到，红绿柱高度其实就是白线和黄线差值形成的。
 
@@ -79,7 +79,7 @@ DEA 是 DIFF 的均线，意味着对 DIFF 单日变化更迟钝。
 - 红绿柱高度越来越大：说明 DIFF 和 DEA 距离越来越大，上涨或下跌力度越来越大。
 - 红绿柱高度越来越小：说明 DIFF 和 DEA 距离越来越小，上涨或下跌力度越来越小。
 
-![img](https://zhengyu-blog.oss-cn-wuhan-lr.aliyuncs.com/1718429099637-21f23165-2237-47f2-8949-3391ac76f52e.png)
+![img](https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/1718429099637-21f23165-2237-47f2-8949-3391ac76f52e.png)
 
 ## MACD判定转折
 
@@ -90,7 +90,7 @@ DEA 是 DIFF 的均线，意味着对 DIFF 单日变化更迟钝。
 
 前者保证了新的上涨（下跌）一笔相对上一次最近的上涨（下跌）一笔是力竭的，后者要保证了新的一笔一定完结，最终形成结构。
 
-![MACD判定转折](https://zhengyu-blog.oss-cn-wuhan-lr.aliyuncs.com/1718523972659-e95fb853-bec0-4134-af70-94700794f64d.png)
+![MACD判定转折](https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/1718523972659-e95fb853-bec0-4134-af70-94700794f64d.png)
 
 关于条件1的判定就是看MACD的红绿柱就可以了。条件2需要看当前位置是不是在该级别中枢内部，**如果在中枢内部的话，结构还未完成，这时候不一定会转折；如果在中枢外，则往往会构成标准的背驰结构，那么这种情况转折的概率非常大。**
 
@@ -104,7 +104,7 @@ DEA 是 DIFF 的均线，意味着对 DIFF 单日变化更迟钝。
 
 **MACD金死叉信号一定出现在新一笔构筑和上一笔结束判定前，且形成金叉和死叉后往往有加速行情。**
 
-![小级别MACD金死叉作为开仓信号](https://zhengyu-blog.oss-cn-wuhan-lr.aliyuncs.com/1718434566058-81500e86-071c-45b7-a873-d76dfb4dbedd.png)
+![小级别MACD金死叉作为开仓信号](https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/1718434566058-81500e86-071c-45b7-a873-d76dfb4dbedd.png)
 
 使用金死叉作为开仓信号其实是在赌后面走势会延续现在的判断，上图这样的走势也很有可能在经过震荡后继续下跌。
 
