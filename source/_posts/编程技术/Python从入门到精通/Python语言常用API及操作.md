@@ -3,6 +3,7 @@ title: Python 常用操作 API 及操作
 date: 2025-02-22 14:46:06
 categories: 
   - 编程技术
+  - Python从入门到精通
 tags:
   - Python
 ---

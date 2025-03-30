@@ -3,6 +3,7 @@ title: Python 语言快速入门
 date: 2025-02-20 10:46:06
 categories: 
   - 编程技术
+  - Python从入门到精通
 tags:
   - Python
 ---
