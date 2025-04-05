@@ -23,9 +23,7 @@ code_blocks:
   fullpage: true
 
 disable_top_img: false
-tag_img: https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/%E7%94%98%E9%9B%A8.jpg
-index_img: https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/%E6%B5%81%E8%90%A41.jpg
-category_img: https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/%E6%B5%81%E8%90%A43.png
+index_img: https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/%E6%B5%81%E8%90%A42.jpg
 
 cover:
   index_enable: true
