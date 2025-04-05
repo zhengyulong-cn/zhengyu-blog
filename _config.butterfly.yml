@@ -23,7 +23,9 @@ code_blocks:
   fullpage: true
 
 disable_top_img: false
-index_img: https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/%E7%94%98%E9%9B%A8.jpg
+tag_img: https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/%E7%94%98%E9%9B%A8.jpg
+index_img: https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/%E6%B5%81%E8%90%A41.jpg
+category_img: https://zhengyu-personal-blog.oss-rg-china-mainland.aliyuncs.com/%E6%B5%81%E8%90%A43.png
 
 cover:
   index_enable: true
@@ -93,3 +95,15 @@ favicon: /img/favicon.ico
 avatar:
   img: /img/butterfly-icon.png
   effect: false
+
+subtitle:
+  enable: true
+  effect: true
+  typed_option:
+  source: false
+  sub:
+    - 耐心等待机会，按照系统执行
+    - 市场的机会很多，但属于你的却不多
+    - 戒骄戒躁，忌情绪化交易
+    - 尊重客观规律，顺势而为
+    - 宝剑锋从磨砺出，梅花香自苦寒来
