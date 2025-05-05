@@ -8,21 +8,21 @@ tags:
   - Java
 ---
 
-# 一、Java语言概述
+# 一、Java 语言概述
 
-## JDK和JRE
+## JDK 和 JRE
 
-JDK（Java Development Kit）：Java程序开发工具包，包含JRE和开发人员使用的工具。
+JDK（Java Development Kit）：Java 程序开发工具包，包含 JRE 和开发人员使用的工具。
 
-JRE（Java Runtime Environment）：Java程序运行时环境，包含JVM和运行时所需的核心类库。
+JRE（Java Runtime Environment）：Java 程序运行时环境，包含 JVM 和运行时所需的核心类库。
 
-> JDK=JRE+开发工具集
+> JDK = JRE+开发工具集
 >
-> JRE=JVM+Java SE标准类库
+> JRE = JVM+Java SE 标准类库
 
-## JDK安装
+## JDK 安装
 
-在官网下载[Java Downloads](https://www.oracle.com/cn/java/technologies/downloads)并按照，会自动配置环境变量，JDK 17后是下面路径。
+在官网下载 [Java Downloads](https://www.oracle.com/cn/java/technologies/downloads) 并按照，会自动配置环境变量，JDK 17 后是下面路径。
 
 ![image-20250430083727333](./image-20250430083727333.png)
 
